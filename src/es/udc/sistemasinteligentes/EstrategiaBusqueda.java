@@ -2,9 +2,9 @@ package es.udc.sistemasinteligentes;
 
 public interface EstrategiaBusqueda {
     /**
-     * Soluciona el problema de búsqueda, obteniendo un estado meta o arrojando una Excepcion si no encuentra una
+     * Soluciona el problema de búsqueda, obteniendo un camino de nodos desde el estado inicial hasta un estado meta
      * @param p Problema a solucionar
-     * @return Estado meta obtenido
+     * @return Array de nodos que representan el camino desde el estado inicial hasta un estado meta
      */
-    public abstract Estado soluciona(ProblemaBusqueda p) throws Exception;
+    public abstract Nodo[] soluciona(ProblemaBusqueda p) throws Exception;
 }
