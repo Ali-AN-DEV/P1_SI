@@ -1,1 +1,7 @@
-/out/
+# Ignorar todo
+/*
+
+# No ignorar .gitignore, README.md y la carpeta src
+!.gitignore
+!/README.md
+!/src/
